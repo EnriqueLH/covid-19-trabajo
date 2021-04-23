@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+body{
+	font-family: "Open sans";
+	color: #00FFCD;
+	font-size: 25px;
+	background-image: url("https://www.paho.org/sites/default/files/card/2021-03/covid-19-virus-aqua-bk.jpg");
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #D35400;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	/*position: relative;*/
+	display: inline-block;
+}
+
+.menu >li > a{
+	display: block;
+	padding: 15PX 20PX;
+	color: #17202A;
+	font-family: 'Open sans';
+	text-decoration: none; 
+}
+
+.menu li a:hover{
+	color: #F1C40F;
+	transition: all: 3s;
+}
